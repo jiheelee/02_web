@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="02_layout.css">
+</head>
+<body>
+    <title>영화추천사이트</title>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="#">영화추천사이트</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-right" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-right" href="#" disabled="true">친구 평점 보러가기</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">log In</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    <header style="height:350px">
+        <div class="image">
+        </div>
+        <div class="content">
+            <h2 class="d-flex justify-content-center">영화목록</h2>
+        </div>
+        
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
+          <img src="static/movie_image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="row d-flex justify-content-between">
+              <h5 >말모이</h5>
+              <button type="button" class="btn btn-info" style="text-align: center; height:30px;">9.04</button>
+            </div>
+          <br></br>
+            <div class="justify-content-start">
+              <p>드라마</p>
+              <p>개봉일: 2019.01.09</p>
+              <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167699" class="btn btn-success" >영화 정보 보러가기</a>
+            </div>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
+          <img src="static/image2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="row d-flex justify-content-between">
+              <h5 class="card-title">내안의 그놈</h5>
+              <button type="button" class="btn btn-info">8.69</button>
+            </div>
+            <br>
+            <p>판타지</p>
+            <p>개봉일: 2019.01.09</p>
+            
+            <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=164172" class="btn btn-success">영화 정보 보러가기</a>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
+          <img src="static/image3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="row d-flex justify-content-between">
+              <h5 class="card-title">글래스</h5>
+              <button type="button" class="btn btn-info">7.69</button>
+            </div>
+            <p>드라마</p>
+            <p>개봉일: 2019.01.17</p>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=163826" class="btn btn-success">영화 정보 보러가기</a>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
+          <img src="static/image4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="row d-flex justify-content-between">
+              <h5 class="card-title">주먹왕 랄프2:인터넷 속으로</h5>
+              <button type="button" class="btn btn-info">8.76</button>
+            </div>
+            <p>애니메이션</p>
+            <p>개봉일: 2019.01.03</p>
+            
+            <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=152632" class="btn btn-success">영화 정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
+          <img src="static/image5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="row d-flex justify-content-between">
+              <h5 class="card-title">언더독</h5>
+              <button type="button" class="btn btn-info">9.49</button>
+            </div>
+            <p>애니메이션</p>
+            <p>개봉일: 2019.01.16</p>
+            
+            <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=144318" class="btn btn-success">영화 정보 보러가기</a>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
+          <img src="static/image6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="row d-flex justify-content-between">
+              <h5 class="card-title">아쿠아맨</h5>
+              <button type="button" class="btn btn-info">8.39</button>\
+            </div>
+            <p>액션</p>
+            <p>개봉일: 2018.12.19</p>
+            <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=151153" class="btn btn-success">영화 정보 보러가기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+ 
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
